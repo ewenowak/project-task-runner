@@ -1,0 +1,76 @@
+/* Variables */
+$font-title: 'Montserrat', sans-serif;
+$font-subtitle: 'PT Serif', sans-serif;
+$font-text: 'Roboto Slab', sans-serif;
+
+$color-light: #fff;
+$color-dark: black;
+
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+body {
+    max-width: 1400px;
+    margin: 0;
+}
+
+/* Header */
+
+.page-header {
+    background-image: url('/images/head-photo.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: $color-light;
+    max-height: 700px;
+
+}
+.page-logo {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.page-navigation ul li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 15px;
+    font-family: $font-title;
+    padding-top: 20px;
+}
+
+.page-title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-title h2 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: $font-subtitle;
+    font-weight: 200;
+}
+
+.page-title h1 {
+    font-size: 75px;
+    font-family: $font-title;
+    margin-top: 10px;
+}
+
+.btn {
+    background: #fed136;
+    padding: 14px 30px;
+    border-radius: 2px;
+    font-family: $font-title;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: $color-light;
+}
+
+
+
+
+
