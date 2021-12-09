@@ -13,7 +13,6 @@ $color-medium: #777777;
     box-sizing: border-box; }
 
 body {
-    max-width: 1400px;
     margin: 0;
     background-color: $color-light;
 }
@@ -61,8 +60,6 @@ section {
     background-position: center;
     background-size: cover;
     color: $color-light;
-    max-height: 700px;
-
 }
 .page-logo {
     margin-top: 10px;
@@ -120,23 +117,15 @@ section {
 }
 
 .portfolio-image {
-    width: 290px;
-    height: 300px;
-    position: relative;
-   
-    
-    
+    height: 300px; 
 }
 
 .portfolio-image img {
     height: 100%;
     width: 100%;
-    position: absolute;
     object-fit: cover;
-    transform: translateX(-50%);
 }
 .portfolio-title {
-    width: 290px;
     text-align: center;
     background: $color-light;
     padding-top: 10px;
@@ -152,25 +141,26 @@ footer {
     font-size: 14px;
     text-align: center;
 }
-
+.social-media ul {
+    text-align: center;
+}
 .social-media ul li {
     display: inline-block;
-    background-color: $color-dark;
-    border-radius: 50%;
     height: 40px;
     width: 40px;
     position: relative;
     font-size: 0;
     margin-right: 10px;
-    
+    background-color: $color-dark;
+    border-radius: 50%;
 }
 .social-media ul li img {
-    position: absolute;
-    margin: 0 auto;
+   position: absolute;
+   font-size: 20px;
+   margin: 0 auto;
     right: 50%;
-    top: 10%;
     transform: translate(50%, 50%); 
-    
+    top: 10%;
 }
 
 
