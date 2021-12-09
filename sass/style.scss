@@ -77,10 +77,10 @@ section {
 .page-title {
     margin: 0 auto;
     text-align: center;
+    margin-top: 200px;
 }
 
 .page-title h2 {
-    margin-top: 200px;
     font-size: 40px;
     font-family: $font-subtitle;
     font-weight: 200;
@@ -163,6 +163,38 @@ footer {
     top: 10%;
 }
 
+/* Media */
 
 
+@media (max-width: 400px) {
+    .page-title {
+        margin-top: 100px;
+    }
+    .page-title h2 {
+        font-size: 25px;
+    }
+    .page-title h1 {
+        font-size: 55px;
+    }
+    .btn {
+        padding: 20px 15px;
+    }
+}
 
+@media (min-width: 401px) and (max-width: 500px) {
+    .page-title {
+        margin-top: 100px;
+    }  
+    .page-title h2 {
+        font-size: 30px;
+    }
+    .page-title h1 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+    .page-title {
+        margin-top: 100px;
+    }
+}
